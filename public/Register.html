@@ -21,7 +21,47 @@
        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
        color: #222;
        
+       
     }
+    @media (max-width: 480px) {
+
+    body {
+        padding: 20px;
+        height: auto;      /* اجازه می‌دهد صفحه اسکرول شود */
+        justify-content: flex-start;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 350px;   /* بزرگ‌تر نمی‌شود */
+        padding: 15px;
+        border-radius: 6px;
+        box-shadow: -10px 15px 25px -10px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    label {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+}
     .container {
         background-color: #dbdbdb;
         padding: 20px;
