@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<style>
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+    body {
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+       margin: 0;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       color: #222;
+       
+    }
+    .container {
+        background-color: #dbdbdb;
+        padding: 20px;
+        border-radius: 8px;
+        width: 300px;
+        text-align: center;
+       -webkit-box-shadow: -29px 31px 35px -16px rgba(0,0,0,0.3); 
+box-shadow: -29px 31px 35px -16px rgba(0,0,0,0.3);
+
+       
+    }
+    h2 {
+        margin-bottom: 20px;
+    }
+    label {
+        display: block;
+        margin: 10px  auto 5px;
+        font-size: 14px;
+        text-align: left;
+        width: 90%;
+    }
+    input {
+        display: block;
+        width: 90%;
+        padding: 8px;
+        margin: 0 auto 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+        
+    }
+    button{
+     width: 90%;
+     padding: 10px;
+     background-color: aquamarine;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     margin: 0 auto;
+     display: block;
+    
+
+    }
+    button:hover {
+        background-color: #222;
+        color: whitesmoke;
+    }
+    
+
+</style>
+<body>
+    <div class="container">
+             <h3>REGISTER</h3>
+             <form>
+                    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="forexample@gmail.com" name="email" required>
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="have capital letters,numbers,..." name="password" required>
+    <label for="confirm password">Confirm password</label>
+    <input type="confrim password" id="confirm password" placeholder="Repeat the same password" name="confrim password" required>
+    <label for="Phone Number">Phone Number</label>
+    <input type="phone number" id="phone number" placeholder="phone number" name="phone number" required>
+             <a href="login.html"><button type="submit">Sign in</button> </a>  
+</form>
+
+
+   
+    </div>
+ 
+
+   
+
+</body>
+</html>
